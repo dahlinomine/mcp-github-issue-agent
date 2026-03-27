@@ -1,0 +1,14 @@
+{
+  "name": "mcp-github-issue-agent",
+  "version": "0.1.0",
+  "description": "An MCP server that enables agents to perform complex SWE tasks directly on GitHub issues.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "keywords": []
+}
